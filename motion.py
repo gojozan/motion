@@ -148,7 +148,7 @@ def delete_temp_file(file_path):
         os.remove(file_path)
 
 # Streamlit UI
-st.title("MOTION : Monkeypox Classification")
+st.title("MOTION : Monkeypox Identification")
 
 # File uploader for image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
